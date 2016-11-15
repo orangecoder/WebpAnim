@@ -47,15 +47,18 @@ public class MainActivity extends Activity implements View.OnClickListener{
 	public void onClick(View v) {
 		switch (v.getId()){
 			case R.id.btn_70:
-				giftGLSurfaceView.show_70();
+//				giftGLSurfaceView.show_70();
+				giftGLSurfaceView.showFireworksTube();
 				tv_type.setText("70");
 				break;
 			case R.id.btn_100:
-				giftGLSurfaceView.show_100();
+//				giftGLSurfaceView.show_100();
+				giftGLSurfaceView.showScreenBomb();
 				tv_type.setText("100");
 				break;
 			case R.id.btn_8sec:
-				giftGLSurfaceView.show_8sec();
+//				giftGLSurfaceView.show_8sec();
+				giftGLSurfaceView.showFireworkSeason();
 				tv_type.setText("8秒");
 				break;
 		}

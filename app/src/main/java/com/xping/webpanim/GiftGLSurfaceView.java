@@ -157,6 +157,19 @@ public class GiftGLSurfaceView extends GLSurfaceView {
         loadWebp(R.raw.output_8sen);
     }
 
+    public void showFireworksTube(){
+        cancleAnim();
+        loadWebp(R.raw.fireworks_tube);
+    }
 
+    public void showScreenBomb(){
+        cancleAnim();
+        loadWebp(R.raw.screen_bomb);
+    }
+
+    public void showFireworkSeason(){
+        cancleAnim();
+        loadWebp(R.raw.firework_season);
+    }
 
 }
